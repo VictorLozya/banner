@@ -78,8 +78,8 @@ export default {
         : (this.resultOfValidation = false);
     },
     checkingWAndH() {
-      this.imgHeight = document.querySelector(".client-image").clientHeight;
-      this.imgWidth = document.querySelector(".client-image").clientWidth;
+      this.imgHeight = document.querySelector(".client-image").naturalHeight;
+      this.imgWidth = document.querySelector(".client-image").naturalWidth;
       this.imgHeight === 85 && this.imgWidth === 1090
         ? (this.pixelsValidation = true)
         : (this.pixelsValidation = false);
@@ -112,6 +112,9 @@ body {
 }
 #file-inputer {
   display: none;
+}
+.client-image {
+  height: 100px;
 }
 .check-button {
   border: 2px solid rgb(22, 179, 207);
