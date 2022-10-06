@@ -136,9 +136,6 @@ body {
 .error {
   background-color: rgba(255, 0, 0, 0.671);
 }
-.client-image {
-  max-height: 100px;
-}
 .image-output {
   margin-bottom: 50px;
 }
