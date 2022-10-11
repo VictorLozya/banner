@@ -24,7 +24,7 @@
     <div>
       <p v-if="!pixelsValidation" class="result error">
         Розмір банеру в пікселях не співпадає. У банера розміри {{ imgWidth }} x
-        {{ imgHeight }}, коли мають бути 1080 х 90.
+        {{ imgHeight }}, коли мають бути 1090 х 85.
       </p>
       <p v-if="!sizeValidation" class="result error">
         Розмір банеру більший за 2MB. Банер важить
